@@ -32,7 +32,7 @@ library OracleLib {
     }
 
     // TODO: fetch timout from chainlink feed
-    function getTimeout(AggregatorV3Interface /* chainlinkFeed */ ) public pure returns (uint256) {
+    function getTimeout(AggregatorV3Interface /* chainlinkFeed */ ) internal pure returns (uint256) {
         return TIMEOUT;
     }
 }
