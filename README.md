@@ -41,7 +41,7 @@ cd bet-broker-protocol
 
 Dependencies
 
-Run `forge install smartcontractkit/chainlink-brownie-contracts chainlink-brownie-contracts`
+Run `forge install smartcontractkit/chainlink-brownie-contracts Openzeppelin/openzeppelin-contracts`
 
 Build
 
